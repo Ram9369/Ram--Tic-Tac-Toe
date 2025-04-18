@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(93, 226, 190);
+    align-items: center;
+    text-align: center;
+}
+.container{
+    height: 65vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+    
+.game{
+    padding: 1vmin;
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5vmin;
+    background-image: url("backgrdn.jpg");
+    border:1px solid rgb(160, 84, 84);
+    box-shadow: 0.2rem 0.2rem 1rem brown;
+    border-radius: 1vmin;
+
+    }
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    background-color: rgb(244, 244, 117);
+    border: none;
+    box-shadow: 0 0 0.7rem rgb(45, 45, 73);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+    color: black;
+    font-size: 8vmin;
+    
+}
+#new-btn{
+    padding: 0.8rem;
+    background-color: black;
+    color: beige;
+    border-radius: 1rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border: none;
+}
+#reset-btn{
+    padding: 0.8rem;
+    background-color: black;
+    color: beige;
+    border-radius: 1rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+    border: none;
+}
+.hide{
+    display: none;
+}
+
+.msg-container{
+    color:blue;
+    font-size:6vmin;
+    font-family: elephant;
+    padding: 1rem;
+   
+
+}
+.section{
+    height: 65vmin;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.content{
+ 
+    height: 65vmin;
+    width: 91vmin;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5vmin;
+    background-color: rgba(28, 229, 69, 0.655);
+    border:1px solid rgb(160, 84, 84);
+    box-shadow: 0.2rem 0.3rem 1rem brown;
+    border-radius: 1vmin;
+}
+video{
+    height: 65vmin;
+    width: 91.1vmin;
+    border:green;
+ 
+}

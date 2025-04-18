@@ -6,8 +6,8 @@ let msg = document.querySelector("#msg");
 let main = document.querySelector(".main");
 let video = document.querySelector(".clip");
 
-const playerX=prompt("Enter User-O Name : ");
-const playerY=prompt("Enter User-X Name : ");
+const playerX=prompt("Enter Player-O Name : ");
+const playerY=prompt("Enter Player-X Name : ");
 let turnO = true; //playerX, playerO
 
 
